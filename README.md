@@ -35,10 +35,10 @@ Users should be able to:
 - CSS modules
 - Mobile-first workflow
 - React Context
-- [React Router] (https://reactrouter.com/en/main) - React routing framework
+- [React Router](https://reactrouter.com/en/main) - React routing framework
 - [React](https://reactjs.org/) - JS library
-- [Formik] (https://formik.org/) - Form React library
-- [Yup] (https://www.npmjs.com/package/yup) - Schema builder for value parsing and validation
+- [Formik](https://formik.org/) - Form React library
+- [Yup](https://www.npmjs.com/package/yup) - Schema builder for value parsing and validation
 
 ## Author
 
