@@ -1,0 +1,41 @@
+.input {
+    border: 1px var(--grey) solid;
+    border-radius: 8px;
+    padding: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.input::placeholder {
+    opacity: 60%;
+}
+
+.input:focus {
+    outline-color: var(--dark-slate-grey);
+}
+
+.label {
+    display: block;
+    font-size: 10px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.input.input_error {
+    border-color: var(--tomato-color);
+    color: var(--tomato-color);
+    background-color: hsl(4, 88%, 90%);;
+}
+
+.container_error {
+    display: flex;
+    justify-content: space-between;
+}
+
+.error {
+    font-size: 10px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: var(--tomato-color);
+}

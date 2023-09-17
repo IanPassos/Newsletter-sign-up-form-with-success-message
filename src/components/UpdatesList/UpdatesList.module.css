@@ -1,0 +1,15 @@
+.list {
+    list-style: none;
+    margin-bottom: 32px;
+}
+
+.list_item {
+    display: flex;
+    margin-left: 16px;
+    align-items: flex-start;
+    margin: 16px 16px 16px 16px;
+}
+
+.list_item p {
+    padding-left: 16px;
+}

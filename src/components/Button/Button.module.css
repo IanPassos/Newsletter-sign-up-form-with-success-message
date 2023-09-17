@@ -1,0 +1,23 @@
+.button {
+    display: block;
+    margin: 2rem 0;
+    background-color: var(--dark-slate-grey);
+    border: 1px var(--grey) solid;
+    border-radius: 8px;
+    padding: 1rem;
+    color: var(--white);
+    text-align: center;
+    width: 100%;
+    font-family: var(--main-font);
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.button:disabled {
+    opacity: 0.7;
+}
+
+.button:hover {
+    background: linear-gradient(90deg, rgba(255, 84, 118, 1) 0%, rgba(250, 90, 88, 1) 50%, rgba(255, 103, 64, 1) 100%);
+}
